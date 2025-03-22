@@ -42,3 +42,11 @@ h1{
     font-size: 20px;
     font-weight: 600;
 }
+#resultPara {
+    font-size: 25px;
+    margin: 30px 0px;
+}
+#resultImages img {
+    width: 100px;
+    margin: 5px;
+}
