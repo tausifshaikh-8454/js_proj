@@ -1,0 +1,25 @@
+.counterstyle{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: sans-serif;
+}
+
+.btnconatiner{
+    display: block;
+    text-align: center;
+}
+
+.btnstyel{
+    padding: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: #7ef5c3;
+    color: #000;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+
+.btnstyel:hover{
+    background-color: #14bb75;
+}
