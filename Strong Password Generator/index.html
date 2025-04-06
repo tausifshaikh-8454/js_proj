@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Strong Pasword generator</h1>
+        <label for="leng">Please specify the password length</label><br>
+        <input type="number" min="1" id="leng"><br>
+        
+        <input type="radio" name="type" id="upper">
+        <label for="upper">Do you want to include Uppercase in password</label><br>
+        <input type="radio" name="type" id="lower">
+        <label for="lower">Do you want to include Lowercase in password</label><br>
+        <input type="radio" name="type" id="special">
+        <label for="special">Do you want to include Special character in password</label><br>
+        <input type="radio" name="type" id="number_inp">
+        <label for="number_inp">Do you want to include Digits in password</label><br>
+
+        <div id="password"></div>
+        <button type="button" onclick ="genPass(upper)">Generate Password</button>
+    </div>
+    
+    
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

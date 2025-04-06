@@ -10,7 +10,8 @@
     <div class="container">
         <h1>Dice roll program</h1>
         <label id="rollnumber_text">How many number of dices you want to roll</label><br>
-        <input type="number" id="rollNumber" min=1><br>
+        <input type="number" id="rollNumber" min='1' max="6"><br>
+        <p id="error_msg"></p>
         <button type="button" onclick="rollDice()" id="roll_btn">Roll Dices</button>
         <div id="resultPara"></div>
         <div id="resultImages"></div>

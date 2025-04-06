@@ -42,6 +42,13 @@ h1{
     font-size: 20px;
     font-weight: 600;
 }
+#roll_btn:hover{
+    cursor: pointer;
+    background-color: hsl(108, 93%, 35%)
+}
+#roll_btn:active{
+    background-color: hsl(108, 93%, 35%)
+}
 #resultPara {
     font-size: 25px;
     margin: 30px 0px;
